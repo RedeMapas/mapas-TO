@@ -26,6 +26,8 @@ services:
       - ../plugins/Analytics:/var/www/src/plugins/Analytics
       - ../plugins/MapasBlame:/var/www/src/plugins/MapasBlame
 
+      - ../themes/MapasTO:/var/www/src/themes/MapasTO
+
     environment:
       - PENDING_PCACHE_RECREATION_INTERVAL=10
       - JOBS_INTERVAL=10
