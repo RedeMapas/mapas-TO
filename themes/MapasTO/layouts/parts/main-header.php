@@ -19,7 +19,9 @@ $this->import('
 <header class="main-header" id="main-header">
     <?php $this->applyTemplateHook('main-header', 'begin') ?>
 
-    <div class="main-header__contentdddddd">
+    <script type="text/javascript" charset="utf-8" src="https://barra.to.gov.br/base_sistemas.js?k=uj8nmx&ati=2"></script>
+
+    <div class="main-header__content">
 
         <?php $this->applyTemplateHook('mc-header-menu', 'before') ?>
         <mc-header-menu>
