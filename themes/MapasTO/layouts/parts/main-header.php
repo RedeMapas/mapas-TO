@@ -16,8 +16,8 @@ $this->import('
 ?>
 
 <?php $this->applyTemplateHook('main-header', 'before') ?>
-<script type="text/javascript" charset="utf-8" src="https://barra.to.gov.br/topo.js?k=5g07lx"></script>
 <header class="main-header" id="main-header">
+<script type="text/javascript" charset="utf-8" src="https://barra.to.gov.br/topo.js?k=5g07lx"></script>
     <?php $this->applyTemplateHook('main-header', 'begin') ?>
 
 
