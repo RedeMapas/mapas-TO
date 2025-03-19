@@ -16,10 +16,10 @@ $this->import('
 ?>
 
 <?php $this->applyTemplateHook('main-header', 'before') ?>
+<script type="text/javascript" charset="utf-8" src="https://barra.to.gov.br/topo.js?k=5g07lx"></script>
 <header class="main-header" id="main-header">
     <?php $this->applyTemplateHook('main-header', 'begin') ?>
 
-    <script type="text/javascript" charset="utf-8" src="https://barra.to.gov.br/base_sistemas.js?k=uj8nmx&ati=2"></script>
 
     <div class="main-header__content">
 
