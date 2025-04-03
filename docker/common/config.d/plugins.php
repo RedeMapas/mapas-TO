@@ -8,5 +8,6 @@ return [
         'AdminLoginAsUser' => ['namespace' => 'AdminLoginAsUser'],
         'Analytics' => ['namespace' => 'Analytics'],
         'MapasBlame' => ['namespace' => 'MapasBlame'],
+        'SpamDetector' => ['namespace' => 'SpamDetector'],
     ]
 ];

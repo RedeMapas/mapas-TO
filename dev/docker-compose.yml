@@ -25,6 +25,7 @@ services:
       - ../plugins/AdminLoginAsUser:/var/www/src/plugins/AdminLoginAsUser
       - ../plugins/Analytics:/var/www/src/plugins/Analytics
       - ../plugins/MapasBlame:/var/www/src/plugins/MapasBlame
+      - ../plugins/SpamDetector:/var/www/src/plugins/SpamDetector
 
       - ../themes/MapasTO:/var/www/src/themes/MapasTO
 
