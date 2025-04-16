@@ -18,6 +18,24 @@ $this->import('
 <?php $this->applyTemplateHook('main-header', 'before') ?>
 <header class="main-header" id="main-header">
 <script type="text/javascript" charset="utf-8" src="https://barra.to.gov.br/topo.js?k=5g07lx"></script>
+
+<script>
+window.addEventListener('DOMContentLoaded', function() {
+  var iframe = document.createElement('iframe');
+  iframe.id = 'barra-base';
+  iframe.src = 'https://barra.to.gov.br/base.php?&ati=0';
+  iframe.frameBorder = 'no';
+  iframe.scrolling = 'no';
+  iframe.width = '100%';
+  iframe.height = '450px';
+  document.body.appendChild(iframe);
+  
+  function postMessageBarraBase(data) { 
+    iframe.contentWindow.postMessage(data,''); 
+  }
+  window.postMessageBarraBase = postMessageBarraBase;
+});
+</script>
     <?php $this->applyTemplateHook('main-header', 'begin') ?>
 
 
